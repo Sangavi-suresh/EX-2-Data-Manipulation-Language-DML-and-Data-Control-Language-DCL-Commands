@@ -2,25 +2,26 @@
 
 DATE : 10/08/23
 
-#AIM:
+# AIM:
 
 To create a student database and execute DDL queries using SQL. To create a manager database and execute DML queries using SQL.
 
-#DML(Data Manipulation Language) :
+# DML(Data Manipulation Language) :
 
 The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
-#List of DML commands :
+# List of DML commands :
 
 INSERT: It is used to insert data into a table.
 UPDATE: It is used to update existing data within a table.
 DELETE: It is used to delete records from a database table.
-#Create the table as given below :
+
+# Create the table as given below :
 
 create table manager(enumber number(6),ename char(15),salary number(5),
 commission number(4),annualsalary number(7),Hiredate date,designation char(10)
 ,deptno number(2),reporting char(10));
 
-#Insert the following values into the table:
+# Insert the following values into the table:
 
 insert into manager values(7369,'Dharsan',2500,500,30000,'30-June-81','clerk',10,'John');
 insert into manager values(7839,'Subu',3000,400,36000,'1-Jul-82','manager',null,'James');
